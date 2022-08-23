@@ -4,7 +4,10 @@ const formRef = document.querySelector('.feedback-form');
 
 const FORM_LOCAL_STORAGE = 'feedback-form-state';
 
-let formData = {};
+let formData = {
+  email: '',
+  message: '',
+};
 
 saveDataInput();
 
